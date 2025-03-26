@@ -3,5 +3,11 @@ using namespace std;
 int main()
 {
 
-cout<<"Hello word"<<endl;
+string name;
+
+cout<<"Enter your name: ";
+
+cin>>name;
+
+cout<<"Hello word from"<<name <<endl;
 }
